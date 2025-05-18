@@ -4,10 +4,9 @@ import HeroSection from "@/components/sections/HeroSection";
 import SafetyCategories from "@/components/sections/SafetyCategories";
 import DailyTip from "@/components/sections/DailyTip";
 import TestSection from "@/components/sections/TestSection";
-import ParentsSection from "@/components/sections/ParentsSection";
 import Footer from "@/components/sections/Footer";
 
-const Index: React.FC = () => {
+const Index = () => {
   return (
     <div className="min-h-screen bg-blue-50">
       <Header />
@@ -15,7 +14,6 @@ const Index: React.FC = () => {
       <SafetyCategories />
       <DailyTip />
       <TestSection />
-      <ParentsSection />
       <Footer />
     </div>
   );
